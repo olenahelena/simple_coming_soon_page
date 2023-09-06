@@ -24,13 +24,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot-desktop.png)
-![](./screenshot-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/olenahelena/Base_Apparel_Page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/olenahelena/Base_Apparel_Page)
+- Live Site URL: (https://stirring-haupia-4545fe.netlify.app/)
 
 
 ### Built with

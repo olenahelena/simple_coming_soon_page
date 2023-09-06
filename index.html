@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__logo">
+        <img src="images/logo.svg" alt="Header Logo">
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="page__main main-section">
+        <div class="main-section__container">
+          <div class="main-section__content">
+            <h1 class="main__title"><span>We're</span> coming soon</h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store.
+              Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+            <form class="main-section__form error__form" id="myForm">
+              <input type="email" id="email" class="email" name="email" placeholder="Email Address" required>
+              <img src="/base-apparel-coming-soon-master/images/icon-error.svg" alt="Error icon"
+                class="error-icon error-icon__remove" id="errorIcon">
+              <button type="submit" class="submit__btn"><img src="images/icon-arrow.svg" alt=""
+                  id="submitButton"></button>
+            </form>
+            <p class="error error__remove" id="errorText">Please provide a valid email</p>
+
+          </div>
+          <div class="main-section__image">
+            <img src="images/hero-mobile.jpg" alt="Main Image" class="hero-mobile__img">
+            <img src="images/hero-desktop.jpg" alt="Main Image" class="hero-desktop__img">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/olenahelena">Olena Shevchenko</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="/base-apparel-coming-soon-master/js/script.js"></script>
+</body>
+
+</html>

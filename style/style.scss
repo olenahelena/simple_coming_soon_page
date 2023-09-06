@@ -185,7 +185,7 @@ input[type="email"]:active {
 
 .error-icon__remove {
     position: absolute;
-    transform: translate(-350%, 55%);
+    transform: translate(-410%, 55%);
 }
 
 .error {
@@ -284,6 +284,10 @@ input[type="email"]:active {
 
     input[type="email"] {
         min-width: 30rem;
+    }
+
+    .submit__btn {
+        width: 5.5rem;
     }
 
     .submit__btn:hover {

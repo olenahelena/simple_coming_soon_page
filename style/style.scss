@@ -145,6 +145,7 @@ input[type="email"] {
     font-size: 0.875rem;
     line-height: 0.875rem;
     outline: none;
+    background: transparent;
 }
 
 .email_border {
@@ -279,7 +280,7 @@ input[type="email"]:active {
     }
 
     p {
-        max-width: 30rem;
+        max-width: 28rem;
     }
 
     input[type="email"] {
@@ -352,7 +353,7 @@ input[type="email"]:active {
         text-align: left;
         font-size: 1rem;
         line-height: 1.75;
-        margin: 0 0 3.125rem;
+        // margin: 0 0 3.125rem;
     }
 
     .main-section__image {
